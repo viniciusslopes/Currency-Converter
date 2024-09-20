@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Currency converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Conversor de moeda</h2>
+
+        <form>
+            <div class="amount">
+                <p>Valor</p>
+                <input type="text" value="1">
+            </div>
+
+            <div class="convert-box">
+                <div class="from">
+                    <p>De</p>
+                    <div class="select-input">
+                        <img src="https://flagcdn.com/48x36/us.png">
+                        <select></select>
+                    </div>
+                </div>
+
+                <div class="reverse">
+                    <i class="fas fa-exchange-alt"></i>
+                </div>
+
+                <div class="to">
+                    <p>Para</p>
+                    <div class="select-input">
+                        <img src="https://flagcdn.com/48x36/gb.png">
+                        <select></select>
+                    </div>
+                </div>
+                <div class="result">
+                    Obtendo taxa de câmbio...
+                </div>
+                <button>calcular taxa de câmbio</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="/assets/js/country_list.js"></script>
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
